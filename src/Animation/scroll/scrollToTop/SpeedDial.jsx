@@ -15,8 +15,14 @@ const SpeedDial = () => {
         onClick={handleCallClick}
         variant="extended"
         size="small"
-        sx={{ position: "fixed", bottom: 95, right: 33, borderRadius: "50%", width: 50, height: 50, backgroundColor: "#ED5521" }}
+        sx={{
+          position: "fixed", bottom: 95, right: 33, borderRadius: "50%", width: 50, height: 50, backgroundColor: "#ED5521",
+          "&:hover": {
+            backgroundColor: "#000000",
+          },
+        }}
         aria-label="add"
+
       >
         <LocalPhoneIcon fontSize="medium" style={{ color: "white" }} />
       </Fab>

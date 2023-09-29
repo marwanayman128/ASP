@@ -52,11 +52,11 @@ function App() {
           </Box>
 
           <Section6 />
-          <Footer />
+          <Footer setEmailSent={setEmailSent} />
 
         </>} />
 
-        <Route path="/v1/aspbuilding/Success" element={emailSent ? <Success /> : <Navigate to="/" />} />
+        <Route path="/Success" element={emailSent ? <Success /> : <Navigate to="/" />} />
 
       </Routes>
 

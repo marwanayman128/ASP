@@ -8,7 +8,7 @@ import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import CircularProgress from '@mui/material/CircularProgress';
 
-export default function footer() {
+export default function footer({ setEmailSent }) {
     const form = useRef();
     const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
@@ -23,6 +23,7 @@ export default function footer() {
                 console.log(result.text);
 
                 if (result.text === 'OK') {
+                    setEmailSent(true);
                     navigate('/Success');
                 }
             })

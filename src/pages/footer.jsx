@@ -23,7 +23,7 @@ export default function footer() {
                 console.log(result.text);
 
                 if (result.text === 'OK') {
-                    navigate('/v1/aspbuilding/Success');
+                    navigate('/Success');
                 }
             })
             .catch((error) => {

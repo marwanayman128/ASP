@@ -315,6 +315,10 @@
     background-attachment: fixed;
 }
 
+.splide__pagination__page.is-active {
+    background-color: #ed5520 !important;
+}
+
 
 /* ======= Basic style ======= */
 

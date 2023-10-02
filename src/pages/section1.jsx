@@ -311,7 +311,7 @@ function MostSale({ setEmailSent }) {
                                 },
                             }}
                         />
-                        <Stack width={"30%"} margin={"0 30px 0 30px"}
+                        <Stack margin={"0 30px 0 30px"}
                             alignItem={"center"} justifyContent={"center"}>
                             <button type='submit' className="button-primary">Submit</button>
 

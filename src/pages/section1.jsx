@@ -150,7 +150,7 @@ function MostSale({ setEmailSent }) {
                         <Container sx={{ zIndex: 1, color: "#fff", position: "absolute", transform: "translate(-50%, -50%)", top: "50%", left: "50%" }}  >
                             <Stack width={{ xs: "800px", sm: "800px", md: "100%", lg: "100%", xl: "100%" }} direction={"row"} alignItems={"center"} justifyContent={"space-between"}>
                                 <Stack  >
-                                    <Box sx={{ width: { xs: "60%", sm: "70%", md: "90%", lg: "90%", xl: "90%" } }}>
+                                    <Box sx={{ width: { xs: "50%", sm: "70%", md: "90%", lg: "90%", xl: "90%" } }}>
                                         <div className="section-subtitle"><Typography color={"#fff"}>Best Home Builders and Home Renovation</Typography></div>
                                         <h1 style={{ color: "#fff" }}>Build Your Dream House</h1>
                                         <p style={{ color: "#fff" }}>We pride ourselves on being able to provide our clients with a wide range of building services and support.</p>

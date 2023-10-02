@@ -21,7 +21,7 @@ const Header1 = () => {
 
             <Container>
                 <Stack justifyContent={"center"} alignItems={"center"} >
-                    <Typography sx={{ fontSize: 15, color: "white" }}>Best Home Builders & Home Renovation in Dundas, Sydney</Typography>
+                    <Typography sx={{ fontSize: 15, color: "white", textAlign: "center" }}>Best Home Builders & Home Renovation in Dundas, Sydney</Typography>
                 </Stack>
             </Container>
         </Box>

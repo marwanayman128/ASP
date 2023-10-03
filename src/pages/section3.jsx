@@ -14,8 +14,8 @@ export default function section3() {
                     <div className="row">
                         <Splide options={{
                             type: 'loop',
-                            pagination: true, arrows: false, cover: true, gap: 50, perPage: 3, hheight: "550px",
-                            breakpoints: { 1200: { height: "550px", perPage: 3 }, 1050: { height: "550px", perPage: 2 }, 600: { height: 600, perPage: 1 } },
+                            pagination: true, arrows: false, cover: true, gap: 50, perPage: 3, height: "500px",
+                            breakpoints: { 1200: { height: "570px", perPage: 3 }, 1050: { height: "670px", perPage: 2 }, 600: { heightRatio: 0.7, perPage: 1, pagination: false }, 450: { heightRatio: 0.5, perPage: 1, pagination: false } },
                         }}>
                             <SplideSlide>
                                 <div className="item mb-30">
@@ -24,8 +24,7 @@ export default function section3() {
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-new-construction" /> </div>
-                                        <h5><a href="services-page.html">Project Planning</a></h5>
-                                        <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p>
+                                        <h5><a href="services-page.html">Building Services</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>
@@ -39,7 +38,6 @@ export default function section3() {
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-construction-sign" /> </div>
                                         <h5><a href="services-page.html">Commercial & Residential</a></h5>
-                                        <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p>
                                     </div>
                                 </div>
                             </SplideSlide>
@@ -52,7 +50,6 @@ export default function section3() {
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-factory" /> </div>
                                         <h5><a href="services-page.html">Construction & Renovation</a></h5>
-                                        <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p>
                                     </div>
                                 </div>
                             </SplideSlide>

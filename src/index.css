@@ -3767,6 +3767,9 @@ blockquote cite:before {
 }
 
 @media only screen and (max-width: 400px) {
+    .h1-slider {
+        font-size: 38px !important;
+    }
     .gallery-masonry-wrapper {
         margin-left: auto;
         margin-right: auto;

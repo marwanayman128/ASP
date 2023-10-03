@@ -55,12 +55,11 @@ function MostSale({ setEmailSent }) {
         if (currentSlideIndex >= 0 && currentSlideIndex < slides.length) {
             slides[currentSlideIndex].style.zIndex = '1'; // Current slide
         }
-
         if (nextSlideIndex >= 0 && nextSlideIndex < slides.length) {
             // Use setTimeout to change z-index after a delay
             setTimeout(() => {
                 slides[nextSlideIndex].style.zIndex = '2'; // Next slide
-            }, 450); // 450ms delay (slightly longer than the transition duration)
+            }, 450);
         }
     };
     const handleMouseEnter = () => {
@@ -87,7 +86,7 @@ function MostSale({ setEmailSent }) {
 
                 if (result.text === 'OK') {
                     setEmailSent(true);
-                    navigate('/Success');
+                    navigate('/v1/aspbuilding/Success');
                 }
             })
             .catch((error) => {

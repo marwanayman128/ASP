@@ -26,7 +26,7 @@ export default function Contact({ setEmailSent }) {
 
                 if (result.text === 'OK') {
                     setEmailSent(true);
-                    navigate('/Success');
+                    navigate('/v1/aspbuilding/Success');
                 }
             })
             .catch((error) => {

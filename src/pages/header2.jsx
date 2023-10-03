@@ -60,7 +60,7 @@ const Header2 = ({ scrollToService }) => {
     };
 
     const NavigateToHome = () => {
-        window.location.href = "/";
+        window.location.href = "/v1/aspbuilding/";
     };
 
     return (

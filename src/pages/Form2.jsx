@@ -2,7 +2,6 @@ import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import {
-    Container,
     Stack,
     Typography,
     TextField,
@@ -27,7 +26,7 @@ export default function Contact({ setEmailSent }) {
 
                 if (result.text === 'OK') {
                     setEmailSent(true);
-                    navigate('/Success');
+                    navigate('/v1/aspbuilding/Success');
                 }
             })
             .catch((error) => {

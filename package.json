@@ -2,7 +2,7 @@
     "name": "asp",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://quadmarketingsolution.com/v1/aspbuilding/",
+    "homepage": "https://quadmarketingsolution.com/",
     "type": "module",
     "scripts": {
         "dev": "vite",

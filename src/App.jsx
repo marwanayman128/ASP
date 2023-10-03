@@ -16,7 +16,6 @@ import { Box } from '@mui/material'
 import Success from "./pages//Success";
 import SpeedDial from './Animation/scroll/scrollToTop/SpeedDial'
 import { useState } from 'react'
-
 function App() {
   const [emailSent, setEmailSent] = useState(false);
 

@@ -111,7 +111,7 @@ function MostSale({ setEmailSent }) {
                                 <Stack  >
                                     <Box sx={{ width: { xs: "50%", sm: "70%", md: "90%", lg: "90%", xl: "90%" } }}>
                                         <div className="section-subtitle"><Typography color={"#fff"}>Best Home Builders and Home Renovation</Typography></div>
-                                        <h1 className="h1-slider" style={{ color: "#fff" }}>Renovate Your House With The Experts</h1>
+                                        <Typography sx={{ color: "#fff", fontSize: { xs: "36px", sm: "40px", md: "50px", lg: "50px", xl: "50px" } }}>Renovate Your House With The Experts</Typography>
                                         <p style={{ color: "#fff" }}>We pride ourselves on being able to provide our clients with a wide range of building services and support.</p>
                                         <a style={{ margin: "0 30px 0 0", textDecoration: "none" }} href="#contact" className="button-primary">Get A Free Quote Now</a>
                                     </Box>

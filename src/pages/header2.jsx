@@ -88,9 +88,9 @@ const Header2 = ({ scrollToService }) => {
                     <Container>
                         <Stack direction={"row"} alignItems={"center"} justifyContent={"space-between"} >
                             <Stack ml={{ xs: 0, sm: 0, md: 0, lg: 10, xl: 17 }} className="navItemMenu" direction={"row"} gap={4} divider={<Divider orientation="vertical" flexItem />}>
-                                <a href="#services" className="hoverable">Services</a>
-                                <a href="#gallery" className="hoverable">Gallery</a>
-                                <a href="#contact" className="hoverable">Contact</a>
+                                <a style={{ textDecoration: "none", color: "#000" }} href="#services" className="hoverable">Services</a>
+                                <a style={{ textDecoration: "none", color: "#000" }} href="#gallery" className="hoverable">Gallery</a>
+                                <a style={{ textDecoration: "none", color: "#000" }} href="#contact" className="hoverable">Contact</a>
                             </Stack>
 
                             <Stack gap={3} direction={"row"} divider={<Divider orientation="vertical" flexItem />}>
@@ -122,7 +122,7 @@ const Header2 = ({ scrollToService }) => {
                                         <Typography fontWeight={"bold"}>0416 141 221</Typography>
                                     </Stack>
                                 </Stack>
-                                <a style={{ margin: "0 20px 0 0" }} href="#contact" className="button-primaryy">Contact Now</a>
+                                <a style={{ margin: "0 20px 0 0", textDecoration: "none" }} href="#contact" className="button-primaryy">Contact Now</a>
                             </Stack>
                         </Stack>
 

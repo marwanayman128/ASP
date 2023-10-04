@@ -24,7 +24,7 @@ export default function section3() {
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-new-construction" /> </div>
-                                        <h5><a href="services-page.html">Building Services</a></h5>
+                                        <h5><a style={{ textDecoration: "none", color: "#000" }} href="services-page.html">Building Services</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>
@@ -37,7 +37,7 @@ export default function section3() {
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-construction-sign" /> </div>
-                                        <h5><a href="services-page.html">Commercial & Residential</a></h5>
+                                        <h5><a style={{ textDecoration: "none", color: "#000" }} href="services-page.html">Commercial & Residential</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>
@@ -49,7 +49,7 @@ export default function section3() {
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-factory" /> </div>
-                                        <h5><a href="services-page.html">Construction & Renovation</a></h5>
+                                        <h5><a style={{ textDecoration: "none", color: "#000" }} href="services-page.html">Construction & Renovation</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>

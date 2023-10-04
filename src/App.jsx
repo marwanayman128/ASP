@@ -36,7 +36,7 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<>
+        <Route path="/v1/aspbuilding/" element={<>
 
           <Section1 setEmailSent={setEmailSent} />
           <Section2 />
@@ -55,7 +55,7 @@ function App() {
 
         </>} />
 
-        <Route path="/Success" element={emailSent ? <Success /> : <Navigate to="/" />} />
+        <Route path="/v1/aspbuilding/Success" element={emailSent ? <Success /> : <Navigate to="/v1/aspbuilding/" />} />
 
       </Routes>
 

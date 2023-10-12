@@ -1,4 +1,3 @@
-
 export default function section4() {
     return (
         <>
@@ -14,17 +13,17 @@ export default function section4() {
                         </div>
                         <div className="row">
                             <div className="col-md-3 padding">
-                                <div className="item text-center"> <img src="https://duruthemes.com/demo/html/norc/demo1/img/arrow1.png" className="tobotm" alt /> <span className="icon asp-paper" />
+                                <div className="item text-center"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067259/ASP/arrow/eiwphqpo8pkvu6eilepr.png" className="tobotm" alt="" /> <span className="icon asp-paper" />
                                     <h6><span>01.</span>Planing</h6>
                                 </div>
                             </div>
                             <div className="col-md-3 padding">
-                                <div className="item text-center"> <img src="https://duruthemes.com/demo/html/norc/demo1/img/arrow1.png" alt /> <span className="icon asp-pen-tool-2" />
+                                <div className="item text-center"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067259/ASP/arrow/eiwphqpo8pkvu6eilepr.png" alt="" /> <span className="icon asp-pen-tool-2" />
                                     <h6><span>02.</span>Design</h6>
                                 </div>
                             </div>
                             <div className="col-md-3 padding">
-                                <div className="item text-center"> <img src="https://duruthemes.com/demo/html/norc/demo1/img/arrow1.png" className="tobotm" alt /> <span className="icon asp-new-construction" />
+                                <div className="item text-center"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067259/ASP/arrow/eiwphqpo8pkvu6eilepr.png" className="tobotm" alt="" /> <span className="icon asp-new-construction" />
                                     <h6><span>03.</span>Construct</h6>
                                 </div>
                             </div>

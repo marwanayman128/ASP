@@ -20,11 +20,11 @@ export default function section3() {
                             <SplideSlide>
                                 <div className="item mb-30">
                                     <div className="service-img">
-                                        <div className="img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/services/service-1.jpg" alt /> </div>
+                                        <div className="img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067089/ASP/services/tlgqcapir6692yqsutms.jpg" alt="" /> </div>
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-new-construction" /> </div>
-                                        <h5><a style={{ textDecoration: "none", color: "#000" }} href="services-page.html">Building Services</a></h5>
+                                        <h5><a style={{ textDecoration: "none" }} href="services-page.html">Building Services</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>
@@ -33,11 +33,11 @@ export default function section3() {
 
                                 <div className="item mb-30">
                                     <div className="service-img">
-                                        <div className="img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/services/service-2.jpg" alt /> </div>
+                                        <div className="img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067088/ASP/services/gkuuvgn4k7x4drzjcsr0.jpg" alt="dummy" /> </div>
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-construction-sign" /> </div>
-                                        <h5><a style={{ textDecoration: "none", color: "#000" }} href="services-page.html">Commercial & Residential</a></h5>
+                                        <h5><a style={{ textDecoration: "none" }} href="services-page.html">Commercial & Residential</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>
@@ -45,11 +45,11 @@ export default function section3() {
                             <SplideSlide>
                                 <div className="item mb-30">
                                     <div className="service-img">
-                                        <div className="img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/services/service-3.jpg" alt /> </div>
+                                        <div className="img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067088/ASP/services/eeyyshkvk1j4oulws1up.jpg" alt="dummy" /> </div>
                                     </div>
                                     <div className="cont">
                                         <div className="service-icon"> <i className="asp-factory" /> </div>
-                                        <h5><a style={{ textDecoration: "none", color: "#000" }} href="services-page.html">Construction & Renovation</a></h5>
+                                        <h5><a style={{ textDecoration: "none" }} href="services-page.html">Construction & Renovation</a></h5>
                                     </div>
                                 </div>
                             </SplideSlide>

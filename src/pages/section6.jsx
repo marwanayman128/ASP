@@ -29,10 +29,10 @@ export default function section6() {
                                     >
                                         <SplideSlide>
 
-                                            <div className="item"> <span className="quote"><img src="https://duruthemes.com/demo/html/norc/demo1/img/quot.png" alt /></span>
+                                            <div className="item"> <span className="quote"><img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067610/ASP/lgyimxds4ujaeesc0tzm.png" alt="" /></span>
                                                 <p className="v-border">Very professional and friendly. Got the job done quickly with no issues. Even offered to do a bit extra for free. Would highly recommend them to anyone looking for repairs or renovations in the home.</p>
                                                 <div className="info">
-                                                    <div className="author-img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1695774891/lztk5e2xfcj6f8xhtysr.png" alt /> </div>
+                                                    <div className="author-img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1695774891/lztk5e2xfcj6f8xhtysr.png" alt="" /> </div>
                                                     <div className="cont">
                                                         <h6>Aaron G from Plumpton, NSW</h6> <span>Builder</span>
                                                     </div>
@@ -43,11 +43,11 @@ export default function section6() {
 
                                         <SplideSlide>
                                             <div className="item"> <span className="quote">
-                                                <img src="https://duruthemes.com/demo/html/norc/demo1/img/quot.png" alt />
+                                                <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067610/ASP/lgyimxds4ujaeesc0tzm.png" alt="" />
                                             </span>
                                                 <p className="v-border">Alan and his team from ASP building service were excellent. They communicated with me all the time and got the job done very well. I would like to recommend Alan to my friends in the future for sure.</p>
                                                 <div className="info">
-                                                    <div className="author-img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1695774891/lztk5e2xfcj6f8xhtysr.png" alt /> </div>
+                                                    <div className="author-img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1695774891/lztk5e2xfcj6f8xhtysr.png" alt="" /> </div>
                                                     <div className="cont">
                                                         <h6>Bao from Hornsby, NSW</h6> <span>Door Carpenter</span>
                                                     </div>
@@ -58,11 +58,11 @@ export default function section6() {
 
                                         <SplideSlide>
                                             <div className="item"> <span className="quote">
-                                                <img src="https://duruthemes.com/demo/html/norc/demo1/img/quot.png" alt />
+                                                <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067610/ASP/lgyimxds4ujaeesc0tzm.png" alt="" />
                                             </span>
                                                 <p className="v-border">Excellent. Strongly recommended. Alan and his team are friendly and very hard working. They took care to keep tidy and organized and discussed the details of the job. Completed the job in the time frame. Very happy to hire again!</p>
                                                 <div className="info">
-                                                    <div className="author-img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1695774891/lztk5e2xfcj6f8xhtysr.png" alt /> </div>
+                                                    <div className="author-img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1695774891/lztk5e2xfcj6f8xhtysr.png" alt="" /> </div>
                                                     <div className="cont">
                                                         <h6>Emily P from Hornsby, NSW</h6> <span>Builder</span>
                                                     </div>
@@ -91,10 +91,10 @@ export default function section6() {
                                 <div className="clients-logo">
                                 </div>
                                 <div className="clients-logo">
-                                    <a href="#0"><img src="img/clients/5.png" alt /></a>
+                                    <a href="#0"><img src="img/clients/5.png" alt="" /></a>
                                 </div>
                                 <div className="clients-logo">
-                                    <a href="#0"><img src="img/clients/6.png" alt /></a>
+                                    <a href="#0"><img src="img/clients/6.png" alt="" /></a>
                                 </div>
                             </div>
                         </div>
